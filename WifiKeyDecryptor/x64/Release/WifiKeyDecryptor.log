@@ -1,0 +1,20 @@
+﻿Build started 3/11/2020 10:37:55 AM.
+     1>Project "c:\Users\l4tr0d3ctism\documents\visual studio 2015\Projects\WifiKeyDecryptor\WifiKeyDecryptor\WifiKeyDecryptor.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt WifiKeyDecryptor.cpp
+         WifiKeyDecryptor.cpp
+     1>WifiKeyDecryptor.cpp(154): warning C4244: 'argument': conversion from 'SIZE_T' to 'ULONG', possible loss of data
+     1>WifiKeyDecryptor.cpp(170): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+     1>WifiKeyDecryptor.cpp(170): warning C4302: 'type cast': truncation from 'HANDLE' to 'DWORD'
+     1>WifiKeyDecryptor.cpp(176): warning C4312: 'type cast': conversion from 'BOOL' to 'PBYTE' of greater size
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\l4tr0d3ctism\documents\visual studio 2015\Projects\WifiKeyDecryptor\x64\Release\WifiKeyDecryptor.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\l4tr0d3ctism\documents\visual studio 2015\Projects\WifiKeyDecryptor\x64\Release\WifiKeyDecryptor.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\l4tr0d3ctism\documents\visual studio 2015\Projects\WifiKeyDecryptor\x64\Release\WifiKeyDecryptor.lib" /MACHINE:X64 x64\Release\WifiKeyDecryptor.obj
+         Generating code
+         All 300 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         WifiKeyDecryptor.vcxproj -> c:\users\l4tr0d3ctism\documents\visual studio 2015\Projects\WifiKeyDecryptor\x64\Release\WifiKeyDecryptor.exe
+     1>Done Building Project "c:\Users\l4tr0d3ctism\documents\visual studio 2015\Projects\WifiKeyDecryptor\WifiKeyDecryptor\WifiKeyDecryptor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.44
