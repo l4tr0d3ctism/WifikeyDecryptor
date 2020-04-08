@@ -44,3 +44,4 @@ But every time you try to remove the interface or use another wireless network c
 ![alt text](https://filestore.community.support.microsoft.com/api/images/260de800-6f70-447c-8d7c-961a14ec8399)
 this tool first obtains the encrypted keys in all interfaces that have been created in the past, and then decrypts them.
 
+Run Program as administrator for Decrypt Key and show them :)
